@@ -1,0 +1,9 @@
+#slideshow-container  { width:800px; height:384px; position:relative; }
+#slideshow-container img { width:800px; display:block; position:absolute; top:0; left:0; z-index:1; }
+#slideshow-container-controls { margin:10px 0 0 0; }
+  #slideshow-container-controls img { cursor:pointer; width:100px; height:75px; border:1px solid #ccc; float:left; margin:0 1px 0 0; }
+#slideshow-container-caption  { height:70px; position:absolute; bottom:0; left:0; right:0; background:#000; z-index:10; overflow:hidden; }
+  * html #slideshow-container-caption { width:100%; }
+  #slideshow-container-caption h3 { font-size:24px; font-weight:bold; color:#fff; padding:10px 10px 3px 10px; }
+  #slideshow-container-caption p  { color:#eee; font-size:11px; padding:0 10px 10px 10px; }
+.toc-active        { border-color:#000; }
