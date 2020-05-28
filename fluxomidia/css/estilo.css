@@ -70,34 +70,24 @@ div img#bacLogo{
 
 .content{
     width:980px;
-    height:auto;
+    height:500px;
     margin:0 auto;
     margin-top:40px;
-    border-bottom: 1px dotted #F60;
+    border-bottom: 1px solid #F60;
 }
 .content h2{
     font-family:Tahoma, Geneva, sans-serif;
     font-size:16px;
     color:#666;
-    border-bottom: 1px dotted #F60;
+    border-bottom: 1px solid #F60;
     padding-bottom:5px;
 }
-/*
-.banner{
-    width:853px;
-    height:412px;
-    margin:0 auto;
-    background:url() top no-repeat;
-}
-*/
-.banner iframe{
-    position: relative;
-    display: block;
-    margin:200px;
-    padding: 0px;
-    
-}
 
+.banner iframe{
+        position:absolute;
+        top:50%;
+        left:30%;
+}
 
 
 .banner_bg{
@@ -152,7 +142,7 @@ div img#bacLogo{
     font-family:Tahoma, Geneva, sans-serif;
     font-size:16px;
     color:#666;
-    border-bottom: 1px dotted #F60;
+    border-bottom: 1px solid #F60;
     padding-bottom:5px;
 }
 
@@ -171,7 +161,7 @@ div img#bacLogo{
     font-family:Tahoma, Geneva, sans-serif;
     font-size:16px;
     color:#666;
-    border-bottom: 1px dotted #F60;
+    border-bottom: 1px solid #F60;
     padding-bottom:5px;
 }
 .quemsomos img{
@@ -184,6 +174,7 @@ div img#bacLogo{
     font-size:12px;
     color:#999;
     margin-top:15px;
+
 }
 
 .prod{
@@ -218,14 +209,14 @@ div img#bacLogo{
     width:853px;
     height:auto;
     margin:0 auto;
-    margin-bottom:200px;
+    margin-bottom:350px;
 }
 
 .produtos h2{
     font-family:Tahoma, Geneva, sans-serif;
     font-size:16px;
     color:#666;
-    border-bottom: 1px dotted #F60;
+    border-bottom: 1px solid #F60;
     padding-bottom:5px;
 }
 
@@ -245,13 +236,14 @@ div img#bacLogo{
     width:853px;
     height:auto;
     margin:0 auto;
+    margin-bottom:400px;
 }
 
 .contato h2{
     font-family:Tahoma, Geneva, sans-serif;
     font-size:16px;
     color:#666;
-    border-bottom: 1px dotted #F60;
+    border-bottom: 1px solid #F60;
     padding-bottom:5px;
 }
 
@@ -273,9 +265,8 @@ div img#bacLogo{
 }
 
 .contato #formTxt{
-    float:left;
-    width:400px;
-    margin-bottom:50px;
+    float: left;
+    margin-bottom:20px;
 }
 
 .contato label{
@@ -297,13 +288,19 @@ div img#bacLogo{
     height:35px;
 }
 
-
 .voltar{
     width:853px;
     height:auto;
     margin:0 auto;
 }
 
+.voltar #btnvoltar {
+
+    position: absolute;
+    left: 19%;
+    top: 102%;
+
+}
 .rodape{
     background:url(../img/rodape.png) left bottom no-repeat;
     background-size: 1750px;
