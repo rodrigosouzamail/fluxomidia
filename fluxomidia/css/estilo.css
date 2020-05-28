@@ -1,78 +1,343 @@
+
 * {margin:0; padding:0;}
 
-.geral{width:100%; height:auto; overflow:hidden; margin:0 auto; background:url(../img/topo.png) left top no-repeat; margin-top:-20px;}
+.geral{
+    background:url(../img/topo.png) left top no-repeat;
+    background-size: 1750px;
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    margin: auto;
+    margin-top:-20px;
+}
 
-.topo{width:1000px; height:180px; margin:0 auto;}
+div img#bacLogo{
+    position: absolute;
+    margin:120px 0px;
+    width:200px;
+}
 
-.logo{width:286px; height:120px; margin-top:30px; margin-left:40px; float:left;}
+.topo{
+    width:1000px;
+    height:180px;
+    margin:0 auto;
+}
+
+.logo{
+    width:200px;
+    height:120px;
+    margin-top:30px;
+    margin-left:40px;
+    float:left;
+}
+
+.menu{
+    width:450px;
+    height:30px;
+    float:left;
+    margin-top:180px;
+    margin-left:15px;
+}
+
+.menu ul li #ativo{
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    background:#ef6f35;
+    color:#FFF;
+}
+
+.menu ul li{
+    list-style:none;
+    display:inline;
+}
+
+.menu ul li a{
+    text-decoration:none;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:16px;
+    color:#ef6f35;
+    margin-right:30px;
+    padding:2px 7px;
+    float:left;
+    }
+
+.menu ul li a:hover{
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    background:#ef6f35;
+    color:#FFF;
+}
+
+.content{
+    width:980px;
+    height:auto;
+    margin:0 auto;
+    margin-top:40px;
+    border-bottom: 1px dotted #F60;
+}
+.content h2{
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:16px;
+    color:#666;
+    border-bottom: 1px dotted #F60;
+    padding-bottom:5px;
+}
+/*
+.banner{
+    width:853px;
+    height:412px;
+    margin:0 auto;
+    background:url() top no-repeat;
+}
+*/
+.banner iframe{
+    position: relative;
+    display: block;
+    margin:200px;
+    padding: 0px;
+    
+}
 
 
-.menu{width:450px; height:30px; float:left; margin-top:120px; margin-left:15px;}
-.menu ul li #ativo{-moz-border-radius:7px; -webkit-border-radius:7px; background:#ef6f35; color:#FFF;}
-.menu ul li{list-style:none; display:inline;}
-.menu ul li a{text-decoration:none; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:16px; color:#ef6f35; margin-right:30px;  padding:2px 7px; float:left;}
-.menu ul li a:hover{-moz-border-radius:7px; -webkit-border-radius:7px; background:#ef6f35; color:#FFF;}
+
+.banner_bg{
+    width:853px;
+    height:100px;
+    margin:0 auto;
+    background:url(../img/banner_sombra.png) top center no-repeat;
+}
+
+.banner ul li{
+    width:853px;
+    list-style:none;
+    margin:0 auto;
+}
+
+.banner ul li img{
+    width:806px;
+    height:292px;
+    margin:25px;
+    margin-top:20px;
+}
+
+.banner #pager{
+    width:853px;
+    margin:0 auto;
+    width:50px;
+}
+.banner #pager a{
+    background:url(../img/banner_pager2.png) no-repeat;
+    width:10px;
+    height:10px;
+    font-size:1px;
+    float:left;
+    padding-left:5px;
+}
+
+.banner #pager a.activeSlide{
+    background:url(../img/banner_pager.png) no-repeat;
+    width:10px;
+    height:10px;
+    font-size:1px;
+    float:left;
+}
+
+.social{
+    width:853px;
+    height:auto;
+    margin:0 auto;
+    margin-bottom:50px;
+}
+.social h2{
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:16px;
+    color:#666;
+    border-bottom: 1px dotted #F60;
+    padding-bottom:5px;
+}
+
+.social img{
+    border:0;
+}
+
+.quemsomos {
+    width:853px;
+    height:auto;
+    margin:0 auto;
+    margin-bottom:200px;
+}
+
+.quemsomos h2{
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:16px;
+    color:#666;
+    border-bottom: 1px dotted #F60;
+    padding-bottom:5px;
+}
+.quemsomos img{
+    margin:20px 10px 5px 0;
+    float:left;
+}
+
+.quemsomos p{
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:12px;
+    color:#999;
+    margin-top:15px;
+}
+
+.prod{
+    float:left;
+    margin:20px;
+}
+
+.prod p{
+    padding-left:5px;
+    padding-top:10px;
+    margin-bottom:15px;
+}
+
+.prod p a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:#666;
+}
+
+.prod img{
+    box-shadow:1px 1px 10px #666;
+}
+
+.prod h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#333;
+    padding-left:5px;
+}
+
+.produtos {
+    width:853px;
+    height:auto;
+    margin:0 auto;
+    margin-bottom:200px;
+}
+
+.produtos h2{
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:16px;
+    color:#666;
+    border-bottom: 1px dotted #F60;
+    padding-bottom:5px;
+}
+
+.produtos img{
+    margin:10px 10px 5px 5px;
+    padding:30px; float:left;
+}
+
+.produtos p{
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:12px;
+    color:#999;
+    margin-top:15px;
+}
+
+.contato {
+    width:853px;
+    height:auto;
+    margin:0 auto;
+}
+
+.contato h2{
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:16px;
+    color:#666;
+    border-bottom: 1px dotted #F60;
+    padding-bottom:5px;
+}
+
+.contato img{
+    margin:20px 10px 5px 0;
+    float:left;
+}
+
+.contato p{
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:12px; color:#999;
+    margin-top:15px;
+}
+
+.contato #formulario{
+    margin-top:20px;
+    margin-bottom:50px;
+    float:right;
+}
+
+.contato #formTxt{
+    float:left;
+    width:400px;
+    margin-bottom:50px;
+}
+
+.contato label{
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:12px; color:#333;
+}
+
+.contato #btn{
+    padding:5px 25px;
+    border:0;
+    background:#F60;
+    color:#FFF;
+    text-shadow:1px 1px 1px #333;
+    cursor:pointer;
+}
+
+.contato input{
+    padding:0 5px;
+    height:35px;
+}
 
 
-.restrito{width:110px; height:50px; background:url(../img/restrito.png); float:right; margin-top:10px;}
-.restrito p{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:14px; color:#FFF; text-shadow:1px 1px 1px #000; margin-left:20px;}
-.restrito form{margin-left:20px;}
-.restrito #usuario{width:129px; height:21px; background:url(../img/usuario.png) no-repeat; border:0; margin-top:5px; margin-bottom:2px; padding-left:25px;}
-.restrito #senha{width:129px; height:21px; background:url(../img/senha.png) no-repeat; border:0; margin-top:5px; margin-bottom:2px;  padding-left:25px;}
-.restrito #bt_restrito{width:69px; height:23px; background:url(../img/bt_logar.png) no-repeat; border:0; margin-top:5px; margin-bottom:2px; cursor:pointer;}
-.restrito #bt_restrito:hover{background:url(../img/bt_logar_hover.png);}
+.voltar{
+    width:853px;
+    height:auto;
+    margin:0 auto;
+}
 
+.rodape{
+    background:url(../img/rodape.png) left bottom no-repeat;
+    background-size: 1750px;
+    width:100%;
+    height:137px;
+    float:left;
+}
 
-.content{width:980px; height:auto; margin:0 auto; margin-top:40px;}
+.rodape_center{
+    width:980px;
+    margin:0 auto;
+    
+}
 
-.banner{width:853px; height:412px; margin:0 auto; background:url(../img/banner.png) top no-repeat;}
-.banner_bg{width:853px; height:100px; margin:0 auto; background:url(../img/banner_sombra.png) top center no-repeat;}
+.rodape_left{
+    width:300px;
+    float:left;
+    margin-top:110px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:#FFF;
+}
 
-.banner ul li{width:853px; list-style:none; margin:0 auto;}
-.banner ul li img{width:806px; height:292px; margin:25px; margin-top:20px;}
+.rodape_right{
+    width:300px;
+    float:right;
+    margin-top:110px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px; color:#FFF;
+    text-align:right
+}
 
-.banner #pager{width:853px; margin:0 auto; width:50px;}
-.banner #pager a{ background:url(../img/banner_pager2.png) no-repeat; width:10px; height:10px; font-size:1px; float:left; padding-left:5px;}
-.banner #pager a.activeSlide{background:url(../img/banner_pager.png) no-repeat; width:10px; height:10px; font-size:1px; float:left;}
-
-.social{width:90px; height:auto; margin:0 auto; padding-top:50px;}
-.social img{border:0;}
-
-.quemsomos {width:853px; height:auto; margin:0 auto; margin-bottom:200px;}
-.quemsomos h2{font-family:Tahoma, Geneva, sans-serif; font-size:16px; color:#666; border-bottom: 1px dotted #F60; padding-bottom:5px;}
-.quemsomos img{margin:20px 10px 5px 0; float:left;}
-.quemsomos p{font-family:Tahoma, Geneva, sans-serif; font-size:12px; color:#999; margin-top:15px;}
-
-
-.prod{float:left; margin:20px;}
-.prod p{padding-left:5px; padding-top:10px; margin-bottom:15px;}
-.prod p a{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666;}
-.prod img{box-shadow:1px 1px 10px #666;}
-.prod h1{font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333; padding-left:5px;}
-.produtos {width:880px; height:auto; margin:0 auto; float:left;}
-.produtos h2{font-family:Tahoma, Geneva, sans-serif; font-size:16px; color:#666; border-bottom: 1px dotted #F60; padding-bottom:5px;}
-.produtos img{margin:10px 10px 5px 5px; padding:30px; float:left;}
-.produtos p{font-family:Tahoma, Geneva, sans-serif; font-size:12px; color:#999; margin-top:15px;}
-
-
-.contato {width:853px; height:auto; margin:0 auto;}
-.contato h2{font-family:Tahoma, Geneva, sans-serif; font-size:16px; color:#666; border-bottom: 1px dotted #F60; padding-bottom:5px;}
-.contato img{margin:20px 10px 5px 0; float:left;}
-.contato p{font-family:Tahoma, Geneva, sans-serif; font-size:12px; color:#999; margin-top:15px;}
-
-.contato #formulario{margin-top:20px; margin-bottom:50px; float:right;}
-.contato #formTxt{float:left; width:400px; margin-bottom:50px;}
-
-.contato label{font-family:Tahoma, Geneva, sans-serif; font-size:12px; color:#333;}
-.contato #btn{padding:5px 25px; border:0; background:#F60; color:#FFF; text-shadow:1px 1px 1px #333; cursor:pointer;}
-.contato input{padding:0 5px; height:35px;}
-
-
-.voltar{width:853px; height:auto; margin:0 auto;}
-
-
-.rodape{width:100%; height:137px; background:url(../img/rodape.png) left bottom no-repeat; float:left;}
-.rodape_center{width:980px; margin:0 auto;}
-.rodape_left{width:300px; float:left; margin-top:110px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFF;}
-.rodape_right{width:300px; float:right; margin-top:110px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFF; text-align:right}
-.rodape_right a{text-decoration:none; color:#FFF; font-weight:bold;}
+.rodape_right a{
+    text-decoration:none;
+    color:#FFF;
+    font-weight:bold;
+}
